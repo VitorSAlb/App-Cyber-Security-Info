@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsPage">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:background="#8C52FF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tipsimage" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Tips"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Tips of Cyber Security"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="372dp"
+        android:layout_height="1723dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="Tips: How to Protect Yourself and Your Data on the Internet \n\n In today's digital age, protecting your personal information and data online is crucial. Here are some important tips to help you safeguard yourself and your data on the internet: \n\n    > Use strong and unique passwords: Create strong passwords that include a combination of letters, numbers, and special characters. Avoid using common phrases or easily guessable information like birthdays or names. Additionally, use different passwords for each online account to minimize the impact of a potential breach. \n\n    > Enable two-factor authentication (2FA): Two-factor authentication adds an extra layer of security by requiring a second verification step, usually through a text message or a mobile app. Enable 2FA whenever possible to protect your accounts from unauthorized access. \n\n    > Be cautious with email attachments and links: Exercise caution when opening email attachments or clicking on links, especially if they are from unknown senders. Malicious attachments and links can install malware on your device or lead you to fake websites designed to steal your information. \n\n    > Keep your software up to date: Regularly update your operating system, web browser, and other software applications. Software updates often include security patches that address known vulnerabilities, reducing the risk of exploitation by hackers. \n\n    > Use reputable antivirus software: Install and regularly update reputable antivirus and anti-malware software on your devices. These programs can detect and remove malicious software, providing an additional layer of protection against threats. \n\n    > Be mindful of public Wi-Fi: When using public Wi-Fi networks, avoid accessing sensitive information or conducting financial transactions. Public networks may lack proper security measures, making it easier for attackers to intercept your data. If necessary, use a virtual private network (VPN) to encrypt your internet connection. \n\n    > Be cautious on social media: Adjust your privacy settings on social media platforms to limit the visibility of your personal information. Avoid sharing sensitive data, such as your home address or phone number, publicly. Be wary of accepting friend requests or interacting with unknown individuals who may have malicious intentions. \n\n    > Regularly back up your data: Create backups of your important files and data regularly. In the event of a security breach or data loss, having backups ensures that you can recover your information without significant disruptions. \n\n    > Educate  yourself about phishing scams: Phishing scams are fraudulent attempts to obtain sensitive information, such as passwords or credit card details, by impersonating trustworthy entities. Be cautious of suspicious emails, messages, or calls asking for personal information, and never provide sensitive data unless you can verify the legitimacy of the request. \n\n    > Practice good browsing habits: Be selective about the websites you visit and only download files from reputable sources. Avoid clicking on pop-up ads or suspicious banners that may lead to potentially harmful websites. \n\nBy following these tips, you can enhance your online security and protect your valuable data from cyber threats. Stay vigilant and stay informed to stay safe on the internet."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

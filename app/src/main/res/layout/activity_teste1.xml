@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="User"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="monospace"
+        android:text="Digital security app "
+        android:textColor="@color/material_dynamic_neutral30"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/HackerImage"
+        android:layout_width="174dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:srcCompat="@drawable/_8005" />
+
+    <ImageView
+        android:id="@+id/VirusImage"
+        android:layout_width="174dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/EthernetImage"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TipsImage"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/_8005" />
+
+    <ImageView
+        android:id="@+id/TipsImage"
+        android:layout_width="174dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toStartOf="@+id/HackerImage"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:srcCompat="@drawable/_8005" />
+
+    <ImageView
+        android:id="@+id/EthernetImage"
+        android:layout_width="174dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HackerImage"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/_8005" />
+
+    <TextView
+        android:id="@+id/TipsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/TipsImage"
+        app:layout_constraintEnd_toEndOf="@+id/TipsImage"
+        app:layout_constraintStart_toStartOf="@+id/TipsImage" />
+
+    <TextView
+        android:id="@+id/hackerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/HackerImage"
+        app:layout_constraintEnd_toEndOf="@+id/HackerImage"
+        app:layout_constraintStart_toStartOf="@+id/HackerImage" />
+
+    <TextView
+        android:id="@+id/virusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/EthernetTitle"
+        app:layout_constraintEnd_toEndOf="@+id/VirusImage"
+        app:layout_constraintStart_toStartOf="@+id/VirusImage" />
+
+    <TextView
+        android:id="@+id/EthernetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/EthernetImage"
+        app:layout_constraintEnd_toEndOf="@+id/EthernetImage"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/EthernetImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

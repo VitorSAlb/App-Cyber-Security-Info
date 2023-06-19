@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VirusPage">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:background="#FFE082"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/virusimage" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Virus"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="239dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="What are they, \n what types and how to avoid them?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="372dp"
+        android:layout_height="1311dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="Viruses represent one of the main threats in the digital world. They have the ability to replicate and attach themselves to files or programs, thus infecting the system, causing damage, and spreading undesirably. Among the main problems they cause are the theft of confidential information, corruption of files, and the paralysis of operating systems. \n\n The main types of viruses are: \n\n    > Keylogger: It is a type of virus that records all the keystrokes made by the user on a device. It can be used to capture confidential information such as passwords, banking data, and other personal data, with the objective of unauthorized access or information theft. \n\n    > Spyware: This is a malicious software that monitors a user's activities on a device without their consent or even knowledge. It can collect personal information, internet browsing history, and other sensitive data, which are often used for unauthorized marketing purposes or even criminal activities. \n\n    > Adware: Adware is a type of malicious software that displays unwanted advertisements on a device. It is usually installed without the user's consent and can be annoying, as well as consuming system resources. In some cases, adware can collect browsing information and send personalized ads, invading the user's privacy. \n\n    > Ransomware: Ransomware is a type of virus that encrypts files and computer systems, making them inaccessible to the user. Attackers demand a ransom in exchange for a key to decrypt the files. Ransomware can cause significant damage to individuals and organizations by disrupting operations, blocking access to important data, and demanding payment of a sum of money to regain access. \n\n    >  Backdoor: A backdoor is intentionally created vulnerability in a computer system to allow unauthorized access. It is a type of malicious program that enables secret entry into a compromised system without the user's knowledge, opening doors for illicit activities such as information theft or remote device control. \n\n    > Trojan Horse: The Trojan horse is a type of virus that disguises itself as a legitimate or harmless program, deceiving users into installing it. Once installed, it can open a gateway to allow unauthorized access to the device or perform malicious activities without the user's knowledge.  It is crucial to be aware of these types of viruses and take security measures, such as keeping antivirus software up to date, avoiding clicking on suspicious links or downloading files, and keeping the operating system and applications always updated."
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
